@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Contato</title>
 </head>
+
 <body>
+
     <header>
         <h1 id="logo">Projeto</h1>
         <nav>
@@ -18,6 +21,36 @@
             </ul>
         </nav>
     </header>
-    <h1>Contato</h1>
+
+    <main id="container-contato">
+        <div class="contato">
+            <form class="form" id="form">
+                <article class="control">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                    <small>Erro</small>
+                </article>
+
+                <article class="control">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                    <small>Erro</small>
+                </article>
+
+                <article class="control">
+                    <label for="descricao">Descrição</label>
+                    <textarea type="text" name="nome" id="nome"></textarea>
+                    <small>Erro</small>
+                </article>
+
+                <button type="submit" onclick="enviar()">Enviar</button>
+
+            </form>
+
+        </div>
+
+    </main>
+
 </body>
+
 </html>
