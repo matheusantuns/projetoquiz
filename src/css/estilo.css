@@ -227,7 +227,15 @@ header #logo{
     position: absolute;
     margin-top: 5px;
 }
-
+/*LOCALIZA*/
+#mapid{
+    width: 1000px;
+    height: 600px;
+}
+#localzacao{
+    margin-top: 10px;
+    font-weight: 600;
+}   
 
 footer{
     margin-top: 30vh;
